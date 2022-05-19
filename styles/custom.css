@@ -1,0 +1,7 @@
+ul.primary-nav {
+    list-style: none;
+    display: inline-flex;
+}
+ul.primary-nav li {
+    padding: 10px;
+}

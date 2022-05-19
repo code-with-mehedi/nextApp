@@ -1,14 +1,11 @@
 import Navbar from "./navbar";
-import Hero from "./hero";
 import Footer from "./footer";
-const Home = () => {
+const About = () => {
   return (
-    <>
+    <div>
       <Navbar />
-      <Hero />
       <Footer />
-    </>
+    </div>
   );
 };
-
-export default Home;
+export default About;

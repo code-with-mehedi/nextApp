@@ -1,14 +1,15 @@
 import Navbar from "./navbar";
-import Hero from "./hero";
+import ArticleList from "./articles";
 import Footer from "./footer";
-const Home = () => {
+const Blog = () => {
   return (
     <>
       <Navbar />
-      <Hero />
+        <ArticleList />
       <Footer />
     </>
   );
 };
 
-export default Home;
+export default Blog;
+
